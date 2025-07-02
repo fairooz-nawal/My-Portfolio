@@ -39,15 +39,15 @@ const Navbar = () => {
         </li>
         <li>
             <a
-                onClick={() => handleLinkClick('#portfolio')}
-                href="#portfolio"
+                onClick={() => handleLinkClick('#projects')}
+                href="#projects"
                 className={
-                    activeLink === '#portfolio'
+                    activeLink === '#projects'
                         ? "bg-gray-900 text-sky-600 font-bold"
                         : "font-bold text-white hover:text-sky-400"
                 }
             >
-                Portfolio
+                Projects
             </a>
         </li>
         <li>
@@ -65,7 +65,7 @@ const Navbar = () => {
         </li>
     </>;
     return (
-        <div className="fixed z-1 navbar shadow-sm md:px-[100px]">
+        <div className="fixed z-1 navbar bg-[#06131ba4] shadow-sm md:px-[100px]">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

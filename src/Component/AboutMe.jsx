@@ -4,7 +4,7 @@ import { SiCcleaner } from "react-icons/si";
 import { CgWebsite } from "react-icons/cg";
 const AboutMe = () => {
     return (
-        <div className='w-full bg-black py-[100px]'>
+        <div id="about" className='w-full bg-black py-[100px]'>
             <div className="w-10/12 mx-auto grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="">
                     <div className="w-11/12 max-auto h-[300px] rounded-2xl bg-gradient-to-r from-sky-500  via-[#072531] to-[#0fc2c7] p-[3px]">

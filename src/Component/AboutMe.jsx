@@ -8,7 +8,7 @@ const AboutMe = () => {
             <div className="w-10/12 mx-auto grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="">
                     <div className="w-11/12 max-auto h-[300px] rounded-2xl bg-gradient-to-r from-sky-500  via-[#072531] to-[#0fc2c7] p-[3px]">
-                        <div class="bg-[#06131b] w-full h-full rounded-2xl  p-6 flex items-center justify-center ">
+                        <div class="bg-[#06131b] w-full h-full rounded-2xl  p-6 flex items-center justify-center">
                             <div className="text-center">
                                 <h1 className='text-2xl md:text-4xl lg:text-5xl font-bold'>1</h1>
                                 <h1 className='text-2xl md:text-4xl lg:text-5xl font-bold'>Years of <br />Experience</h1>

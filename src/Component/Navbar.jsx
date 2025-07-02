@@ -52,15 +52,15 @@ const Navbar = () => {
         </li>
         <li>
             <a
-                onClick={() => handleLinkClick('#resume')}
-                href="#resume"
+                onClick={() => handleLinkClick('#education')}
+                href="#education"
                 className={
                     activeLink === '#resume'
                         ? "bg-gray-900 text-sky-600 font-bold"
                         : "font-bold text-white hover:text-sky-400"
                 }
             >
-                Resume
+                Education
             </a>
         </li>
     </>;
@@ -85,9 +85,9 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <div className="flex items-center">
-                    <div className=""><Link to=""><FaLinkedin className="text-4xl bg rounded-full p-2 hover:text-white hover:p-1" /></Link></div>
-                    <div><Link to=""><FaGithub className="text-4xl bg rounded-full p-2 hover:text-white hover:p-1" /></Link></div>
+                <div className="flex items-center gap-5">
+                    <div className=""><Link to="https://www.linkedin.com/in/syeda-fairooz-nawal-softwaredeveloper/"><FaLinkedin className="text-5xl bg rounded-full p-2 hover:text-white hover:p-1" /></Link></div>
+                    <div><Link to="https://github.com/fairooz-nawal"><FaGithub className="text-5xl bg rounded-full p-2 hover:text-white hover:p-1" /></Link></div>
                 </div>
             </div>
         </div>

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Space+Grotesk:wght@300..700&display=swap');
 @import "tailwindcss";
 @plugin "daisyui";
-
+@import url("https://fonts.googleapis.com/css?family=Merienda+One");
 .mont{
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -12,29 +12,45 @@
 }
 
 
-.light-ray {
+#footer {
+  position: relative; /* Needed to contain absolutely positioned children */
+  background-color: #000;
+  background-image: url('https://path-to-your-light-ray-image.jpg'); /* Replace with actual image path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px; /* or whatever height you want */
+  overflow: hidden; /* Contains the snow effect */
+}
+
+/* Snow effect scoped to #footer */
+#footer.more-snow::before,
+#footer.more-snow::after {
+  content: "";
   position: absolute;
-  top: 0;
-  right: -100%; /* start off-screen to the right */
+  top: -300%;
+  left: 0;
   width: 100%;
-  height: 100vh;
-
-  background: linear-gradient(
-    to left,
-    rgba(0, 0, 255, 0) 0%,
-    rgba(0, 0, 255, 0.4) 50%,
-    rgba(0, 0, 255, 0) 100%
-  );
-
-  animation: move-ray 3s linear infinite;
+  height: 600%;
+  background-image: url('https://laviwebfiles.com/stage/codepen/4-2-white-snow-png.png');
+  background-repeat: repeat;
+  background-size: 60%;
+  opacity: 0.5;
+  filter: blur(2px);
+  animation: MOVE-BG 60s linear infinite;
   pointer-events: none;
 }
 
-@keyframes move-ray {
+#footer.more-snow::after {
+  background-size: 80%;
+  filter: blur(4px);
+  animation-duration: 90s;
+}
+
+@keyframes MOVE-BG {
   from {
-    transform: translateX(100%);
+    transform: translateY(0);
   }
   to {
-    transform: translateX(-100%);
+    transform: translateY(100%);
   }
 }

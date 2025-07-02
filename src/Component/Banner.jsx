@@ -18,8 +18,8 @@ const Banner = () => {
                     <p className='md:font-bold'>This is my portfolio with a collection of my work, achievements, and skills that highlights my abilities and professional growth.</p>
                 </div>
                 <div className="">
-                    <div className="w-full h-full flex items-center">
-                         <img src={pro} className='w-[200px] md:w-[200px] lg:w-[300px] mx-auto rounded-2xl border-10 border-gray-200' alt="" />
+                    <div className="w-full h-full flex items-center ">
+                         <img src={pro} className='w-[200px] bg-[#06131b] md:w-[200px] lg:w-[300px] mx-auto rounded-2xl border-1 border-gray-200' alt="" />
                     </div>
                 </div>
             </div>

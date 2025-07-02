@@ -1,15 +1,71 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { NavLink, Link } from 'react-router';
-import logo from "../../public/Assets/logo.png"
+import logo from "../assets/logo.png"
 const Navbar = () => {
+    const [isOpen, setIsOpen] = useState(false);
+    const [activeLink, setActiveLink] = useState('#home');
+
+    const handleLinkClick = (href) => {
+        setActiveLink(href);
+        setIsOpen(false);
+    };
     const link = <>
-        <li><NavLink to="/home" className={({ isActive }) => isActive ? "bg-gray-900 text-sky-600 font-bold " : "font-bold text-white "}>Home</NavLink></li>
-        <li><NavLink to="/about" className={({ isActive }) => isActive ? "bg-gray-900 text-blue-900 font-bold " : "font-bold text-white "}>About</NavLink></li>
-       
-    </>
+        <li>
+            {/* <NavLink to="/home"><a
+                onClick={() => handleLinkClick('#home')}
+                href="#home"
+                className={
+                    activeLink === '#home'
+                        ? "bg-gray-900 text-sky-600 font-bold"
+                        : "font-bold text-white hover:text-sky-400"
+                }
+            >
+                Home
+            </a></NavLink> */}
+        </li>
+        <li>
+            <a
+                onClick={() => handleLinkClick('#about')}
+                href="#about"
+                className={
+                    activeLink === '#about'
+                        ? "bg-gray-900 text-sky-600 font-bold"
+                        : "font-bold text-white hover:text-sky-400"
+                }
+            >
+                About
+            </a>
+        </li>
+        <li>
+            <a
+                onClick={() => handleLinkClick('#portfolio')}
+                href="#portfolio"
+                className={
+                    activeLink === '#portfolio'
+                        ? "bg-gray-900 text-sky-600 font-bold"
+                        : "font-bold text-white hover:text-sky-400"
+                }
+            >
+                Portfolio
+            </a>
+        </li>
+        <li>
+            <a
+                onClick={() => handleLinkClick('#resume')}
+                href="#resume"
+                className={
+                    activeLink === '#resume'
+                        ? "bg-gray-900 text-sky-600 font-bold"
+                        : "font-bold text-white hover:text-sky-400"
+                }
+            >
+                Resume
+            </a>
+        </li>
+    </>;
     return (
-        <div className="fixed z-1 navbar shadow-sm">
+        <div className="fixed z-1 navbar shadow-sm md:px-[100px]">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

@@ -4,7 +4,7 @@ import { Outlet } from 'react-router';
 
 const Homelayout = () => {
     return (
-        <div>
+        <div className='mont'>
             <Navbar></Navbar>
             <Outlet></Outlet>
         </div>

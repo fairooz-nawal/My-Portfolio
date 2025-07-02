@@ -1,2 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Space+Grotesk:wght@300..700&display=swap');
 @import "tailwindcss";
 @plugin "daisyui";
+
+.mont{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.bg{
+  background-color: #8f8c891d;
+}
+
+

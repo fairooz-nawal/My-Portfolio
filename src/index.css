@@ -15,7 +15,7 @@
 #footer {
   position: relative; /* Needed to contain absolutely positioned children */
   background-color: #000;
-  background-image: url('https://path-to-your-light-ray-image.jpg'); /* Replace with actual image path */
+  background-image: url("./assets/footer.jpg"); /* Replace with actual image path */
   background-size: cover;
   background-repeat: no-repeat;
   height: 500px; /* or whatever height you want */

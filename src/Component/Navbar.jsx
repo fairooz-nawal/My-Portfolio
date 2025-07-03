@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import { NavLink, Link } from 'react-router';
+import {  Link } from 'react-router';
 import logo from "../assets/logo.png"
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -12,17 +12,8 @@ const Navbar = () => {
     };
     const link = <>
         <li>
-            {/* <NavLink to="/home"><a
-                onClick={() => handleLinkClick('#home')}
-                href="#home"
-                className={
-                    activeLink === '#home'
-                        ? "bg-gray-900 text-sky-600 font-bold"
-                        : "font-bold text-white hover:text-sky-400"
-                }
-            >
-                Home
-            </a></NavLink> */}
+            <Link to="/">
+                Home</Link>
         </li>
         <li>
             <a
@@ -65,7 +56,7 @@ const Navbar = () => {
         </li>
     </>;
     return (
-        <div className="fixed z-1 navbar bg-[#06131ba4] shadow-sm md:px-[100px]">
+        <div className="fixed w-full z-1 navbar bg-[#06131ba4] px-0 md:px-[100px]">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

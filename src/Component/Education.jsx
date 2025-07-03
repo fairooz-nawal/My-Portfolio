@@ -2,7 +2,7 @@ import React from 'react';
 import { Slide, Fade } from "react-awesome-reveal";
 const Education = () => {
     return (
-        <div id="education" className='bg-black pb-[100px]'>
+        <div id="education" className='pb-[100px]'>
             <div className="w-3/5 mx-auto text-center space-y-2 mb-[20px]">
                 <Fade delay={200}
                     duration={500}
@@ -29,7 +29,7 @@ const Education = () => {
                         <div className="p-6 bg-[#06131b] h-[200px] rounded-2xl">
                             <h1 className="text-xl md:text-2xl lg:text-3xl font-bold" >HSC</h1>
                             <p className="text-lg md:text-xl lg:text-2xl font-bold">2018-2020</p>
-                            <h1>Bangladesh Army University Of Engineering and Technology</h1>
+                            <h1>Adamjee Cantonment College</h1>
                         </div>
                     </div>
                 </Slide>
@@ -40,7 +40,7 @@ const Education = () => {
                         <div className="p-6 bg-[#06131b] h-[200px] rounded-2xl">
                             <h1 className="text-xl md:text-2xl lg:text-3xl font-bold" >SSC</h1>
                             <p className="text-lg md:text-xl lg:text-2xl font-bold">2016-2018</p>
-                            <h1>Bangladesh Army University Of Engineering and Technology</h1>
+                            <h1>Cantonment Public School and College</h1>
                         </div>
                     </div>
                 </Slide>

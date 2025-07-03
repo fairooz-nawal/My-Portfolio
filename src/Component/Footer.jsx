@@ -5,7 +5,7 @@ import bg from "../assets/footer.jpg"
 const Footer = () => {
     return (
         <div id="footer" className='w-full bg-[#06131b] more-snow realtive'>
-            <div className="bg-[#00000071] absolute z-0 top-[12%] md:top-[18%] lg:top-[20%] w-full h-[630px] md:h-[330px] lg:h-[440px] ">
+            <div className="bg-[#00000071] absolute z-0 top-[0%] md:top-[0%] lg:top-[0%] w-full h-[500px] md:h-[500px] lg:h-[500px] ">
             </div>
             <div className="w-11/12 z-3 mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 mt-[100px] absolute top-0 left-0 right-0">
                 <div className="text-2xl md:text-4xl lg:text-5xl font-bold text-start lg:text-center">Get Ready To <br /> Create Great</div>

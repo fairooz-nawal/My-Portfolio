@@ -3,15 +3,17 @@ import Banner from '../Component/Banner';
 import AboutMe from '../Component/AboutMe';
 import ProjectContainer from '../Component/ProjectContainer';
 import Education from '../Component/Education';
+import Experience from '../Component/Experience';
 
 
 const Home = () => {
     return (
-        <div id='home max-w-full md:max-w-7xl lg:max-w-7xl'>
+        <div id='home' className='max-w-full md:max-w-8xl lg:max-w-8xl'>
             <Banner></Banner>
             <AboutMe></AboutMe>
             <ProjectContainer></ProjectContainer>
             <Education></Education>
+            <Experience></Experience>
         </div>
     );
 };

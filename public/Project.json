@@ -1,29 +1,38 @@
 [
     {
         "id":1,
-        "photo":"https://i.ibb.co/0RV4fLkp/Screenshot-2025-07-02-182005.png",
+        "photo":"https://i.ibb.co/QFLrG14g/Screenshot-2025-07-02-182005.png",
+        "photo1":"https://i.ibb.co/NnCBwxTy/Screenshot-2025-07-04-023132.png",
+        "photo2":"https://i.ibb.co/273PH3rD/Screenshot-2025-07-04-023210.png",
         "livelink":"http://game-heist-syeda-fairooz-nawal.netlify.app/",
         "github":"https://github.com/fairooz-nawal/Game-Heist-Client-Side?tab=readme-ov-file",
         "name":"Game Heist",
          "keyword":["Mongodb", "React", "Express js"," Node", "Tailwind", "Firebase"],
-        "Type":"MERN Stack"
+        "Type":"MERN Stack",
+        "Details":"Game Heist is a user-friendly game review web application built with React + Vite. The goal of this platform is to provide gamers with a clean and chill environment to explore, submit, and manage reviews of their favorite games. Featuring robust user authentication, personalized content, and a responsive design, Game Heist ensures an intuitive experience for every user."
     },
     {
          "id":2,
-        "photo":"https://i.ibb.co/SX1tBx3w/Screenshot-2025-07-02-182329.png",
+        "photo":"https://i.ibb.co/b51fsZjp/Screenshot-2025-07-04-023809.png",
+        "photo1":"https://i.ibb.co/k6mfjYth/Screenshot-2025-07-04-023906.png",
+        "photo2":"https://i.ibb.co/qF7MrDL8/Screenshot-2025-07-04-023924.png",
         "livelink":"https://syeda-fairooz-nawal-earl-recipe.netlify.app/",
         "github":"https://github.com/fairooz-nawal/RecipeBook-Client-Side?tab=readme-ov-file",
         "name":"Recipe Book",
         "keyword":["Mongodb", "React", "Express js"," Node", "Tailwind", "Firebase"],
-        "Type":"MERN Stack"
+        "Type":"MERN Stack",
+        "Details":"A fully responsive, user-friendly Recipe Book App where food lovers can create, discover, and manage their favorite recipes. This full-stack web application supports features like user authentication, CRUD operations for personal recipes, dynamic top recipes by likes, filtering, liking others' recipes, and much more — providing an engaging platform for food enthusiasts."
     },
     {
          "id":3,
-        "photo":"https://i.ibb.co/hJKh61Vy/Screenshot-2025-07-02-182524.png",
+        "photo":"https://i.ibb.co/gbKFTVBg/Screenshot-2025-07-04-024153.png",
+        "photo1":"https://i.ibb.co/jkZKK1xx/Screenshot-2025-07-04-024246.png",
+        "photo2":"https://i.ibb.co/5h0BZn12/Screenshot-2025-07-04-024317.png",
         "livelink":"https://vouch-vault-syeda-fairooz-nawal.netlify.app/",
         "github":"https://github.com/fairooz-nawal/Vouch-Vault-Client-Side?tab=readme-ov-file",
         "name":"Vouch Vault",
         "keyword":["Mongodb", "React","API Security", "Express js"," Node", "Tailwind", "Firebase"],
-        "Type":"MERN Stack"
+        "Type":"MERN Stack",
+        "Details":"Vouch Vault is a secure, scalable, and responsive full-stack Service Review Application. This platform empowers users to post services, leave reviews, and manage content via a modern, interactive UI. Built using React, Tailwind, Express.js, MongoDB, and Firebase Authentication, it showcases advanced CRUD operations, JWT-based protected routes, and smooth user experience enhancements with Framer Motion and SweetAlert2."
     }
 ]

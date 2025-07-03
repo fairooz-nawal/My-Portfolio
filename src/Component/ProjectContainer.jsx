@@ -5,7 +5,7 @@ const promise = fetch("./Project.json").then(res => res.json())
 const ProjectContainer = () => {
     const project = use(promise);
     return (
-        <div id="projects" className='w-full bg-black pb-[100px]'>
+        <div id="projects" className='w-full pb-[100px]'>
             <div className="w-3/5 mx-auto text-center space-y-2 mb-[20px]">
                 <Fade delay={200}
                     duration={500}
@@ -16,10 +16,10 @@ const ProjectContainer = () => {
                 </Fade>
             </div>
 
-            <div className=" w-full md:w-10/12 lg:w-10/12 mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 p-2">
+            <div className=" w-full md:w-10/12 lg:w-10/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-2">
                 <Suspense fallback={<div>Loading...</div>}>
                     {
-                        project.map(pro => <SingleProject pro={pro}></SingleProject>)
+                        project.map((pro) => <SingleProject key={pro.id} pro={pro}></SingleProject>)
                     }
                 </Suspense>
             </div>

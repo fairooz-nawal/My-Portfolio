@@ -6,7 +6,8 @@ const Education = () => {
             <div className="w-3/5 mx-auto text-center space-y-2 mb-[20px]">
                 <Fade delay={200}
                     duration={500}
-                    fraction={0.5} >
+                    fraction={0.5}
+                    distance="0px" >
                     <p className="text-xl text-sky-400 font-semibold">Education</p>
                     <h1 className="text-xl md:text-2xl lg:text-3xl font-bold">University and School</h1>
                 </Fade>

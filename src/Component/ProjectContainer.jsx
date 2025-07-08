@@ -9,7 +9,8 @@ const ProjectContainer = () => {
             <div className="w-3/5 mx-auto text-center space-y-2 mb-[20px]">
                 <Fade delay={200}
                     duration={500}
-                    fraction={0.5} >
+                    fraction={0.5} 
+                    distance="0px">
                     <p className="text-xl text-sky-400 font-semibold">Latest Projects</p>
                     <h1 className="text-xl md:text-2xl lg:text-3xl font-bold">Transforming Ideas into Exceptional</h1>
                     <p className='text-sm'>A collection of projects I’ve built to sharpen my web development skills. Each one helped me explore new tools, frameworks, and challenges.</p>

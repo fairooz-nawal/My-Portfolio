@@ -41,7 +41,8 @@ const AboutMe = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <Fade delay={200}
                             duration={500}
-                            fraction={0.5} >
+                            fraction={0.5}
+                            distance="0px" >
                             <div className="bg-gradient-to-r from-sky-500  via-[#072531] to-[#0fc2c7] p-[3px] rounded-2xl group transition-transform duration-300 hover:-translate-y-2">
                                 <div className="flex md:flex-col lg:flex-row gap-4 items-center bg-[#06131b] h-[200px] rounded-2xl p-5">
                                     <div className="absolute top-10 md:top-0 right-0 w-[150px] h-[150px] md:w-[150px] md:h-[150px] rounded-full bg-[#0d639f] blur-[70px] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -52,7 +53,8 @@ const AboutMe = () => {
                         </Fade>
                         <Fade delay={300}
                             duration={1000}
-                            fraction={0.5} >
+                            fraction={0.5}
+                            distance="0px" >
 
                             <div className="bg-gradient-to-r from-sky-500  via-[#072531] to-[#0fc2c7] p-[3px] rounded-2xl group transition-transform duration-300 hover:-translate-y-2">
                                 <div className="flex md:flex-col lg:flex-row gap-4 items-center bg-[#06131b] h-[200px] rounded-2xl p-5">

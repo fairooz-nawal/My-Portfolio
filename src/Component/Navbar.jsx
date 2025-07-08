@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import {  Link } from 'react-router';
-import logo from "../assets/logo.png"
+import logo from "../assets/logo.webp"
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [activeLink, setActiveLink] = useState('#home');
@@ -56,7 +56,7 @@ const Navbar = () => {
         </li>
     </>;
     return (
-        <div className="fixed w-full z-1 navbar bg-[#06131ba4] px-0 md:px-[100px]">
+        <div className="fixed w-full md:w-[768px] lg:w-[1519px] mx-auto z-1 navbar bg-[#06131ba4] ">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

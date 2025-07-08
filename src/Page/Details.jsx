@@ -1,5 +1,5 @@
 import React, { use, useEffect, useState } from 'react';
-import bg from "../assets/details.jpg"
+import bg from "../assets/details.webp"
 import { Link, useParams } from 'react-router';
 import { Fade, Slide } from "react-awesome-reveal";
 
@@ -33,7 +33,7 @@ const Details = () => {
                     <div className="mt-[10%] grid grid-cols-1">
                         <Slide direction="left">
                             <div className="p-5">
-                                <div className="carousel w-full mx-auto md:h-[500px] ">
+                                <div className="carousel w-full mx-auto h-[300px] md:h-[500px] ">
                                     <div id="slide1" className="carousel-item relative w-full ">
                                         <img
                                             src={photo}

@@ -1,14 +1,15 @@
 import React, { useState } from 'react';
 import { Slide, Fade } from "react-awesome-reveal";
-import logo from "./../assets/download.jpeg"
-import cer from "../assets/certificate.png"
+import logo from "./../assets/download.webp"
+import cer from "../assets/certificate.webp"
 const Experience = () => {
     return (
         <div id="education" className='pb-[100px]'>
             <div className="w-3/5 mx-auto text-center space-y-2 mb-[20px]">
                 <Fade delay={200}
                     duration={500}
-                    fraction={0.5} >
+                    fraction={0.5}
+                    distance="0px" >
                     <p className="text-xl text-sky-400 font-semibold">Work Experience</p>
                     <h1 className="text-xl md:text-2xl lg:text-3xl font-bold">My Internships and Acheivements</h1>
                 </Fade>

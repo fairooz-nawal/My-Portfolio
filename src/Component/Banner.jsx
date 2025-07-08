@@ -1,6 +1,6 @@
 import React from 'react';
-import bg from "../assets/banner.jpg"
-import pro from "../assets/profilePic.png"
+import bg from "../assets/banner.webp"
+import pro from "../assets/profilePic.webp"
 import { Slide } from "react-awesome-reveal";
 const Banner = () => {
     return (

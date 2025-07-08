@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { Link } from 'react-router';
-import bg from "../assets/footer.jpg"
+import bg from "../assets/footer.webp"
 const Footer = () => {
     return (
         <div id="footer" className='w-full bg-[#06131b] more-snow realtive'>
